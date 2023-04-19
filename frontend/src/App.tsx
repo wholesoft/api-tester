@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { Ye } from "./components/Ye"
 import { Chuck } from "./components/Chuck"
 import { Trivia } from "./components/Trivia"
+import { Nasa } from "./components/Nasa"
 import { Advice } from "./components/Advice"
 import { Heading } from "./test/Heading"
 import { Section } from "./test/Section"
@@ -43,13 +44,15 @@ function App() {
           internet.
         </p>
         <hr className="my-4" />
-        <Trivia />
+        <Nasa />
         <hr className="my-4" />
         <Chuck />
         <hr className="my-4" />
+        <Advice />
+        <hr className="my-4" />
         <Ye />
         <hr className="my-4" />
-        <Advice />
+        <Trivia />
       </div>
     </>
   )
