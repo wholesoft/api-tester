@@ -13,7 +13,7 @@ function Nasa() {
   })
 
   useEffect(() => {
-    let BASE_URL = "https://notes-api.wholesoft.net"
+    let BASE_URL = "https://api-tester-api.wholesoft.net"
 
     if (process.env.NODE_ENV == "development") {
       BASE_URL = "http://localhost:8001"
