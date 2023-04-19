@@ -35,7 +35,7 @@ function App() {
         <hr />
         <Heading title={"Howdy"} />
         <hr />
-        <Section>Niggger</Section>
+        <Section>Hey</Section>
         <hr />
         <div className="text-4xl flex justify-center">API Tester</div>
         <p className="py-3">
