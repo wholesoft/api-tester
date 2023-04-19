@@ -13,8 +13,14 @@ function Nasa() {
   })
 
   useEffect(() => {
+    let BASE_URL = "https://notes-api.wholesoft.net"
+
+    if (process.env.NODE_ENV == "development") {
+      BASE_URL = "http://localhost:8001"
+    }
+    console.log(BASE_URL)
     if (!loaded) {
-      axios.get("http://localhost:8001/nasa").then((res) => {
+      axios.get(`${BASE_URL}/nasa`).then((res) => {
         setNasa({
           image: res.data.url,
           hd_image: res.data.hdurl,

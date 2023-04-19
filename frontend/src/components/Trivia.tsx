@@ -13,7 +13,7 @@ function Trivia() {
 
   useEffect(() => {
     if (!loaded) {
-      axios.get("http://jservice.io/api/random").then((res) => {
+      axios.get("https://jservice.io/api/random").then((res) => {
         setAnswer(res.data[0].answer)
         setQuestion(res.data[0].question)
         setCategory(res.data[0].category.title)

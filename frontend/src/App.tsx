@@ -25,34 +25,19 @@ function App() {
   return (
     <>
       <div className="p-5">
-        <List
-          items={["coffee", "tacos", "code"]}
-          render={(item: string) => (
-            <span className="text-yellow-500">{item}</span>
-          )}
-        />
-        <hr />
-        <Counter setCount={setCount}>Count is {count}</Counter>
-        <hr />
-        <Heading title={"Howdy"} />
-        <hr />
-        <Section>Hey</Section>
-        <hr />
         <div className="text-4xl flex justify-center">API Tester</div>
         <p className="py-3">
           A simple page experimenting with various public API's found on the
           internet.
         </p>
         <hr className="my-4" />
-        <Nasa />
-        <hr className="my-4" />
         <Chuck />
         <hr className="my-4" />
         <Advice />
         <hr className="my-4" />
-        <Ye />
-        <hr className="my-4" />
         <Trivia />
+        <hr className="my-4" />
+        <Nasa />
       </div>
     </>
   )
