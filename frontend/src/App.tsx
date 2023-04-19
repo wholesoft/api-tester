@@ -10,15 +10,6 @@ import { Section } from "./test/Section"
 import { Counter } from "./test/Counter"
 import { List } from "./test/List"
 
-// https://cataas.com/cat/says/nigger?size=50&color=red
-// https://cataas.com/doc.html
-
-// https://meowfacts.herokuapp.com/
-
-// https://github.com/movebank/movebank-api-doc/blob/master/movebank-api.md#introduction
-
-// https://dev.to/biplov/15-fun-apis-for-your-next-project-5053
-
 function App() {
   const [count, setCount] = useState<number>(1)
 

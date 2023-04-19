@@ -5,6 +5,8 @@ import axios from "axios"
 import credentials from "./middleware/credentials.js"
 import corsOptions from "./config/corsOptions.js"
 
+// need to compile any updates on server
+
 const app = express()
 app.use(credentials)
 app.use(cors(corsOptions))
